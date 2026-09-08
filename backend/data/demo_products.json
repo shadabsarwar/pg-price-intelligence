@@ -1,0 +1,5 @@
+[
+  {"id":1,"company":"P&G","brand":"Ariel","product_name":"Ariel Liquid Detergent 2L","category":"Laundry","size":"2L","barcode":"DEMO-ARIEL-001","price":32.5,"currency":"QAR"},
+  {"id":2,"company":"P&G","brand":"Pampers","product_name":"Pampers Baby Dry Size 4","category":"Baby Care","size":"Size 4","barcode":"DEMO-PAMPERS-002","price":59,"currency":"QAR"},
+  {"id":3,"company":"P&G","brand":"Gillette","product_name":"Gillette Fusion Razor","category":"Grooming","size":"1 razor","barcode":"DEMO-GILLETTE-003","price":39,"currency":"QAR"}
+]

@@ -1,0 +1,7 @@
+{
+  "weights": {"category": 20, "subcategory": 20, "purpose": 20, "size": 15, "pack_quantity": 10, "attributes": 10, "variant": 5},
+  "minimum_size_ratio": 0.25,
+  "minimum_score": 50,
+  "automatic_score": 70,
+  "high_score": 90
+}

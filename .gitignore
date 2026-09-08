@@ -1,0 +1,13 @@
+backend/data/*.sqlite3
+backend/data/*.sqlite3-*
+backend/data/*.db
+backend/data/*.db-*
+backend/test-results.log
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+backend/.venv/
+backend/venv/
+frontend/.next/
+frontend/node_modules/
+frontend/*.tsbuildinfo

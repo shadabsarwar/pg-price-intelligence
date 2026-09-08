@@ -1,0 +1,17 @@
+{
+  "1": [
+    {"platform": "Carrefour Qatar", "price": 29.50, "original_price": 32.50},
+    {"platform": "LuLu Qatar", "price": 28.75, "original_price": null},
+    {"platform": "Demo Qatar Store", "price": 31.00, "original_price": 34.00}
+  ],
+  "2": [
+    {"platform": "Carrefour Qatar", "price": 59.00, "original_price": 65.00},
+    {"platform": "LuLu Qatar", "price": 56.50, "original_price": 62.00},
+    {"platform": "Demo Qatar Store", "price": 61.00, "original_price": null}
+  ],
+  "3": [
+    {"platform": "Carrefour Qatar", "price": 39.00, "original_price": 45.00},
+    {"platform": "LuLu Qatar", "price": 37.50, "original_price": null},
+    {"platform": "Demo Qatar Store", "price": 41.00, "original_price": 46.00}
+  ]
+}

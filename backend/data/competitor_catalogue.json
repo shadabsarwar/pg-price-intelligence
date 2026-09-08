@@ -1,0 +1,36 @@
+﻿{
+  "note": "All SKU specifications, pack counts and prices are synthetic development fixtures, not verified Qatar products.",
+  "companies": [
+    {"id":"pg","name":"P&G"}, {"id":"henkel","name":"Henkel"},
+    {"id":"unilever","name":"Unilever"}, {"id":"kc","name":"Kimberly-Clark"},
+    {"id":"edgewell","name":"Edgewell Personal Care"},
+    {"id":"colgate","name":"Colgate-Palmolive"}, {"id":"jj","name":"Johnson & Johnson"},
+    {"id":"reckitt","name":"Reckitt"}
+  ],
+  "brands": [
+    {"id":"ariel","name":"Ariel","company_id":"pg"},
+    {"id":"pampers","name":"Pampers","company_id":"pg"},
+    {"id":"gillette","name":"Gillette","company_id":"pg"},
+    {"id":"pantene","name":"Pantene","company_id":"pg"},
+    {"id":"head-shoulders","name":"Head & Shoulders","company_id":"pg"},
+    {"id":"oral-b","name":"Oral-B","company_id":"pg"},
+    {"id":"persil","name":"Persil","company_id":"henkel","ownership_source":"https://www.henkel-gcc.com/en/brands-and-businesses/persil-656482"},
+    {"id":"surf","name":"Surf","company_id":"unilever","ownership_source":"https://www.unileverprofessional.com.au/au/en/brands/surf/"},
+    {"id":"huggies","name":"Huggies","company_id":"kc","ownership_source":"https://www.kimberly-clark.com/en-us/"},
+    {"id":"schick","name":"Schick","company_id":"edgewell","ownership_source":"https://edgewell.com/pages/our-brands"}
+  ],
+  "master_attributes": {
+    "1": {"company_id":"pg","brand_id":"ariel","subcategory":"Liquid detergent","purpose":"Machine laundry","variant":"Original","size_value":2,"unit":"L","pack_quantity":1,"attributes":{"form":"liquid","concentration":"standard"}},
+    "2": {"company_id":"pg","brand_id":"pampers","subcategory":"Baby diapers","purpose":"Baby diapering","variant":"Dry","size_value":1,"unit":"diaper","pack_quantity":48,"attributes":{"form":"taped","diaper_size":"4"}},
+    "3": {"company_id":"pg","brand_id":"gillette","subcategory":"Cartridge razor","purpose":"Facial shaving","variant":"Original","size_value":1,"unit":"razor","pack_quantity":1,"attributes":{"form":"handle with cartridge","razor_type":"refillable","blades":"5"}}
+  },
+  "products": [
+    {"id":1001,"brand_id":"persil","product_name":"Persil Liquid Detergent 2L","category":"Laundry","subcategory":"Liquid detergent","purpose":"Machine laundry","variant":"Original","size":"2L","size_value":2,"unit":"L","pack_quantity":1,"attributes":{"form":"liquid","concentration":"standard"},"prices":[26.5,25,27]},
+    {"id":1002,"brand_id":"surf","product_name":"Surf Liquid Detergent 2L","category":"Laundry","subcategory":"Liquid detergent","purpose":"Machine laundry","variant":"Floral","size":"2L","size_value":2,"unit":"L","pack_quantity":1,"attributes":{"form":"liquid","concentration":"standard"},"prices":[24.5,23.5,25]},
+    {"id":1003,"brand_id":"persil","product_name":"Persil Liquid Detergent 4L","category":"Laundry","subcategory":"Liquid detergent","purpose":"Machine laundry","variant":"Original","size":"4L","size_value":4,"unit":"L","pack_quantity":1,"attributes":{"form":"liquid","concentration":"standard"},"prices":[42,40,43]},
+    {"id":1004,"brand_id":"huggies","product_name":"Huggies Diapers Size 4 - 48 pack","category":"Baby Care","subcategory":"Baby diapers","purpose":"Baby diapering","variant":"Dry","size":"Size 4 / 48 diapers","size_value":1,"unit":"diaper","pack_quantity":48,"attributes":{"form":"taped","diaper_size":"4"},"prices":[55,53,56]},
+    {"id":1005,"brand_id":"huggies","product_name":"Huggies Diapers Size 4 - 60 pack","category":"Baby Care","subcategory":"Baby diapers","purpose":"Baby diapering","variant":"Dry","size":"Size 4 / 60 diapers","size_value":1,"unit":"diaper","pack_quantity":60,"attributes":{"form":"taped","diaper_size":"4"},"prices":[65,63,66]},
+    {"id":1006,"brand_id":"schick","product_name":"Schick Refillable 5 Blade Razor","category":"Grooming","subcategory":"Cartridge razor","purpose":"Facial shaving","variant":"Original","size":"1 razor","size_value":1,"unit":"razor","pack_quantity":1,"attributes":{"form":"handle with cartridge","razor_type":"refillable","blades":"5"},"prices":[35,33.5,36]}
+  ]
+}
+
